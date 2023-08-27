@@ -43,7 +43,7 @@ body {
 
 #card-pronouns {
     position: absolute;
-    top: 4rem;
+    top: 5rem;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.125rem;
