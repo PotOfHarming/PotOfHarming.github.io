@@ -1,0 +1,28 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, red, purple, blue);
+    margin: none;
+}
+
+#card {
+    width: 45rem;
+    height: 25rem;
+    background-color: rgba(50, 50, 50, 0.8);
+    border: 3px rgba(0, 0, 0, 0.25) solid;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#card-name {
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+}
