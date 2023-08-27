@@ -25,12 +25,29 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: -5px 7px 14px 0px rgba(0, 0, 0, 0.5);
 }
 
 #card-name {
     position: absolute;
-    top: 1.5rem;
+    top: 0.5rem;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3rem;
+    background: #000000;
+    background: linear-gradient(to bottom, #5b59ef 50%, #9f59ef 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#card-pronouns {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.125rem;
+    background: #9f59ef;
+    background: linear-gradient(to bottom, #9f59ef 60%, #caa3ac 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
