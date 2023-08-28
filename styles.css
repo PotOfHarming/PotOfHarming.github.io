@@ -16,8 +16,9 @@ body {
 }
 
 #card {
-    width: 45rem;
-    height: 25rem;
+    width: 40vw;
+    aspect-ratio: 16 / 9;
+    max-height: 45%;
     background-color: rgba(50, 50, 50, 0.8);
     background: linear-gradient(45deg, #222222, #444444);
     border: 3px rgba(0, 0, 0, 0.25) solid;
@@ -31,10 +32,10 @@ body {
 
 #card-name {
     position: absolute;
-    top: 0.5rem;
+    top: 0vh;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3rem;
+    font-size: 3.5vw;
     background: #000000;
     background: linear-gradient(to bottom, #5b59ef 50%, #9f59ef 100%);
     -webkit-background-clip: text;
@@ -43,10 +44,10 @@ body {
 
 #card-pronouns {
     position: absolute;
-    top: 5rem;
+    top: calc(5vw + 5px);
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.125rem;
+    font-size: 1.5vw;
     background: #9f59ef;
     background: linear-gradient(to bottom, #9f59ef 60%, #caa3ac 100%);
     -webkit-background-clip: text;
@@ -55,8 +56,8 @@ body {
 
 #data {
     position: relative;
-    top: 6.5rem;
-    max-height: 500px;
+    top: 24%;
+    height: 32.5vh;
     display: grid;
     place-items: center;
 }
@@ -77,10 +78,10 @@ body {
 
 .icon{
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    max-height: 25vh;
+    max-width: 25vw;
+    aspect-ratio: 1 / 1;
     text-align: center;
-    border-radius: 50px;
     box-sizing: border-box;
     line-height: 60px;
     transition: all 0.3s ease-out;
